@@ -1,0 +1,7 @@
+.box {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Oxygen480-emotes-face-smile-big.svg/256px-Oxygen480-emotes-face-smile-big.svg.png);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
