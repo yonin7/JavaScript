@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.photo {
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+.photo.on {
+  background-image: url(/css/img/tired__1_.png);
+}
