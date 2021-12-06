@@ -14,3 +14,5 @@ function whoIsStronger(getStrength) {
   } else return 'You are stronger';
 }
 whoIsStronger(hero.getStrength.bind(hero));
+
+//1. missing bind at the function calling
