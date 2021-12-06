@@ -16,3 +16,5 @@ function whoIsStronger(getStrength) {
 whoIsStronger(hero.getStrength.bind(hero));
 
 //1. missing bind at the function calling
+//   so 'this refered to window, whitch does
+//   not have health or power attributes.
