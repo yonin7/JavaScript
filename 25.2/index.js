@@ -5,7 +5,7 @@ const hero = {
     console.log(this.name);
   },
   printName2: function () {
-    setTimeout(this.printName.bind(hero), 1000);
+    setTimeout(this.printName.bind(this), 1000);
   },
 };
 
