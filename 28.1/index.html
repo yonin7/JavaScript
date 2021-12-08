@@ -14,9 +14,11 @@
       function getData() {
         fetch('https://api.jokes.one/jod')
           .then((res) => res.json())
-          .then((data) => data.contents)
-          .then((jokes) => jokes.jokes[0])
-          .then((description) => console.log(description.joke.title));
+          .then((data) => {
+            console.log(data);
+            console.log(data.contents.jokes[0].joke.title);
+            console.log(data.contents.jokes[0].joke.text);
+          });
       }
     </script>
   </body>
